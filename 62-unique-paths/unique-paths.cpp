@@ -9,9 +9,7 @@ public:
                     grid[i + 1][j] += grid[i][j];
                 if (n - 1 - j)
                     grid[i][j + 1] += grid[i][j];
-                cout << grid[i][j] << " ";
             }
-            cout << endl;
         }
         return grid[m - 1][n - 1];
     }
