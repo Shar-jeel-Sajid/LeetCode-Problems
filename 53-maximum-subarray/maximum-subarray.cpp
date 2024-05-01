@@ -8,8 +8,6 @@ public:
             if (nums[i + 1] > max)
                 max = nums[i + 1];
         }
-        for (int& i : nums)
-            cout << i;
         return max;
     }
 };
