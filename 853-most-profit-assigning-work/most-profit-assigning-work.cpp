@@ -18,7 +18,6 @@ public:
         for(int i = 0;i < m;i++){
             int maxi = 0;
             while(true) {
-                cout << worker[i] << " " << difficulty[i] << " " << profit[i] << endl;
                 if(q.empty() || q.top().first > worker[i]) {
                     sum += maxi;
                     q.push(pair<int,int>(worker[i],maxi));
