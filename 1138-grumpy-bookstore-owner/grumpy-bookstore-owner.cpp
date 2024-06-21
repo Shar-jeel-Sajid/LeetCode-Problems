@@ -5,7 +5,6 @@ public:
         for(int i = 0;i < n;i++) {
             total += customers[i];
             sum += (customers[i] *= grumpy[i]);
-            cout << customers[i] << " ";
         }
         int cur = 0;
         for(int i = 0;i < minutes;i++)
